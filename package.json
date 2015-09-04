@@ -1,0 +1,44 @@
+{
+  "name": "markdown-reference",
+  "description": "Micro-util for generating a markdown-formatted reference link.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/markdown-reference",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/markdown-reference.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/markdown-reference/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/markdown-reference/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "link",
+    "markdown",
+    "md",
+    "ref",
+    "reference",
+    "reflink",
+    "url"
+  ]
+}
